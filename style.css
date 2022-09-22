@@ -1,7 +1,38 @@
 /*
 Color Palette:
-background color:  
-font color:        
-secondary color:   
-tertiary color:    
+background color:#3A3845  
+font color: #F7CCAC       
+secondary color: #C69B7B  
+tertiary color:  #826f66  
 */
+/* 
+Selector {property: value;}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+
+html {
+    Font-size: 62.5%; 
+}
+
+Header {
+    Margin:0 4rem;
+    Letter-spacing:0.8rem;
+    Text-align:center;
+    Border-bottom: 1px solid #826f66;
+    Border-right:1px solid #826f66;
+    Border-left:1px solid #826f66;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
+    Text-transform: uppercase;
+    font-size:1.1rem;
+}
+
+Body {
+    Background-color:#3A3845;
+    Color:#F7CCAC;
+    font-family: 'Open Sans', sans-serif;
+ Margin: 0;   
+}
+
